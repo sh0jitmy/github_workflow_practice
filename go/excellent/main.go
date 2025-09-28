@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	number := 1
-	fmt.Println("%d even or Odd =%s",number,EvenOrOdd(number))
+	fmt.Printf("%d even or Odd =%s\n",number,EvenOrOdd(number))
 }
 
 func EvenOrOdd(number int) string {
